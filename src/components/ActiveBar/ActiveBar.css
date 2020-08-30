@@ -1,0 +1,34 @@
+.Bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  height: 70px;
+  font-size: 28px;
+}
+
+.Bar:focus {
+  /* for accessibility, add an outline on focus */
+  outline: 1px solid #ffc107;
+}
+
+.Bar--active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Note that the width is defined as a style in the component */
+.Bar__fill {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #2196f3;
+  z-index: -1;
+  transition: width 200ms;
+}
+
+.Bar__fill--over-warning {
+  background: #ef5350;
+}

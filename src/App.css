@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+}
+.App {
+  width: 100%;
+  max-width: 850px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App__header {
+  text-align: center;
+  background-color: #6996f1;
+  color: white;
+  padding: 12px 0 12px 0;
+  margin-bottom: 45px;
+}
+.App__loader {
+  color: rgb(26, 113, 227);
+  padding: 12px 0 12px 0;
+  width: 100%;
+  font-size: 18px;
+  margin: 0 auto;
+}
+.App__title {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  text-align: center;
+  padding: 8px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.App__sub-title {
+  margin-bottom: 40px;
+  font-weight: 300;
+  font-size: 18px;
+}
